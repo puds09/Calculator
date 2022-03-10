@@ -1,0 +1,83 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background: linear-gradient(#333333, #888888);
+}
+
+
+section {
+    position: relative;
+    width: 18vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #cccccc;
+    
+}
+
+.visor {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.visor input{
+    font-size: 33px;
+    text-align: right;
+    position: relative;
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px auto;
+    padding-top: 15px;
+    background-color: azure;
+
+}
+
+
+.teclado{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    width: 100%;
+    background-color: #dddddd;
+    color: black;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: black;
+    color: #dddddd;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
